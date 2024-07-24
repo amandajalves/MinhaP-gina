@@ -30,9 +30,16 @@ h1, h2 {
 
 /* Estilo das imagens */
 img {
-    max-width: 100%; /* Garante que a imagem não exceda a largura do contêiner */
+    max-width: 150px; /* Define a largura máxima da imagem */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 50%; /* Adiciona bordas arredondadas para imagens circulares */
+    margin-right: 20px; /* Adiciona espaçamento à direita da imagem */
+}
+
+/* Estilo para a div que contém a imagem e o texto na seção Sobre Mim */
+.sobre-mim-conteudo {
+    display: flex; /* Alinha a imagem e o texto em linha */
+    align-items: center; /* Alinha verticalmente a imagem e o texto */
 }
 
 /* Estilo das listas não ordenadas */
